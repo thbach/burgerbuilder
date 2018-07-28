@@ -4,7 +4,10 @@
     "prettier/prettier": [
       "error",
       {
-        "singleQuote": true
+        "singleQuote": true,
+        "bracketSpacing": false,
+        "jsxBracketSameLine": true,
+        "parser": "flow"
       }
     ]
   },
