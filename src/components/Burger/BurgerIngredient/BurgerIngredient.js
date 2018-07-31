@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import classes from './BurgerIngredient.css';
 import PropTypes from 'prop-types';
+
+import classes from './BurgerIngredient.css';
 
 class BurgerIngredient extends Component {
   render() {
@@ -24,11 +25,11 @@ class BurgerIngredient extends Component {
       case 'cheese':
         ingredient = <div className={classes.Cheese} />;
         break;
-      case 'salad':
-        ingredient = <div className={classes.Salad} />;
-        break;
       case 'bacon':
         ingredient = <div className={classes.Bacon} />;
+        break;
+      case 'salad':
+        ingredient = <div className={classes.Salad} />;
         break;
       default:
         ingredient = null;
